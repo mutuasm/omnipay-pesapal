@@ -23,10 +23,10 @@ class PurchaseResponse extends AbstractResponse implements RedirectResponseInter
      */
     public function getRedirectUrl()
     {
-        if (!is_array($this->data) || !isset($this->data['call_back_url']) || !is_string($this->data['call_back_url'])) {
+        if (!is_array($this->data) || !isset($this->data['return_url']) || !is_string($this->data['return_url'])) {
             return null;
         }
-        return $this->data['call_back_url'];
+        return $this->data['return_url'];
     }
 
     /**

@@ -34,7 +34,7 @@ class AccessTokenRequest extends AbstractRequest
             'POST',
             $this->getParameter('apiUrl') . '/api/Auth/RequestToken',
             $headers,
-            http_build_query($data)
+            json_encode($data)
         );
 
         $tokenData = json_decode($httpResponse->getBody()->getContents(), true);

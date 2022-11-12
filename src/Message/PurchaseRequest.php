@@ -28,7 +28,6 @@ class PurchaseRequest extends AbstractRequest
     {
         $headers = [
             'Accept' => 'application/json',
-            'Accept-Language' => 'en-US',
             'Content-Type' => 'application/json',
             'Authorization' => $this->getParameter('token'),
         ];

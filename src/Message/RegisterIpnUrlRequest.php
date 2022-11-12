@@ -35,7 +35,7 @@ class RegisterIpnUrlRequest extends AbstractRequest
             'POST',
             $this->getParameter('apiUrl') . '/api/URLSetup/RegisterIPN',
             $headers,
-            http_build_query($data)
+            json_encode($data)
         );
 
         $ipnData = json_decode($httpResponse->getBody()->getContents(), true);

@@ -23,7 +23,7 @@ class StatusRequest extends AbstractRequest
 
         $httpResponse = $this->httpClient->request(
             'GET',
-            $this->getParameter('apiUrl') . '/api/Transactions/GetTransactionStatus?orderTrackingId=/' . $this->getParameter('transactionReference'),
+            $this->getParameter('apiUrl') . '/api/Transactions/GetTransactionStatus?orderTrackingId=' . $this->getParameter('transactionReference'),
             $headers
         );
 
