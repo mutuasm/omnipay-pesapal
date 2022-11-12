@@ -18,6 +18,10 @@ use Omnipay\Pesapal\Message\Notification;
  *
  * @package Omnipay\Pesapal
  * @see https://developer.pesapal.com/how-to-integrate/api-30-json/api-reference
+ *
+ *
+ * @author Mwanzia Mutua <stevemtour@gmail.com>
+ * @since 1.0.0
  */
 class Gateway extends AbstractGateway
 {

@@ -8,6 +8,11 @@ use Omnipay\Common\Exception\InvalidRequestException;
 use Omnipay\Common\Message\NotificationInterface;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * @author Mwanzia Mutua <stevemtour@gmail.com>
+ * @since 1.0.0
+ */
+
 class Notification implements NotificationInterface
 {
 

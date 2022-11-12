@@ -5,6 +5,11 @@ namespace Omnipay\Pesapal;
 use Omnipay\Omnipay;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * @author Mwanzia Mutua <stevemtour@gmail.com>
+ * @since 1.0.0
+ */
+
 class GatewayFactory
 {
     /**

@@ -4,6 +4,11 @@ namespace Omnipay\Pesapal\Message;
 
 use Omnipay\Common\Message\AbstractRequest;
 
+/**
+ * @author Mwanzia Mutua <stevemtour@gmail.com>
+ * @since 1.0.0
+ */
+
 class PurchaseRequest extends AbstractRequest
 {
 
